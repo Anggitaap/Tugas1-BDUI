@@ -1,0 +1,48 @@
+
+body{
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    background: turquoise;
+}
+h2{
+    color: teal;
+    text-align: center;
+    line-height: 2.9;
+    font-size: 25px;
+}
+span{
+    color: red;
+}
+.wrapper{
+    width: 500px;
+    height: 370px;
+    background: white;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input{
+    outline: 1px solid teal;
+    border: none;
+    padding: 5px;
+}
+form .section1, .section2{
+    color: teal;
+    font-size: 25px;
+    margin-top: 10px;
+    }
+
+button{
+    font-size: 18px;
+    color: teal;
+    padding: 8px 15px;
+    border: 1px solid teal;
+    background: white;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
